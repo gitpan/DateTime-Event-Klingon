@@ -1,6 +1,6 @@
 #!perl -T
 #
-# $Id$
+# $Id: /svn/DateTime-Event-Klingon/tags/VERSION_1_0_1/t/perl-critic.t 323 2008-04-01T06:37:25.246199Z jaldhar  $
 #
 use strict;
 use warnings;

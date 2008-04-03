@@ -1,4 +1,4 @@
-# $Id$
+# $Id: /svn/DateTime-Event-Klingon/tags/VERSION_1_0_1/lib/DateTime/Event/Klingon.pm 323 2008-04-01T06:37:25.246199Z jaldhar  $
 package DateTime::Event::Klingon;
 
 use warnings;

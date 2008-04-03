@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: /svn/DateTime-Event-Klingon/tags/VERSION_1_0_1/Build.PL 330 2008-04-03T21:27:52.043282Z jaldhar  $
 #
 use strict;
 use warnings;
@@ -9,8 +9,10 @@ my $builder = Module::Build->new(
     module_name         => 'DateTime::Event::Klingon',
     license             => 'perl',
     dist_author         => 'Jaldhar H. Vyas <jaldhar@braincells.com>',
-    dist_version_from   => 'lib/DateTime/Event/Klingon.pm',
+    #dist_version_from   => 'lib/DateTime/Event/Klingon.pm',
+    dist_version        => '1.0.1',
     build_requires => {
+        'DateTime'              => 0,
         'Module::Signature'     => 0,
         'Pod::Coverage'         => 0.18,
         'Pod::Usage'            => 0,
